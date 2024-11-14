@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+st.set_page_config(layout="wide")
 st.title('Localização das comunidades quilombolas (2022)')
 df = pd.read_csv('https://raw.githubusercontent.com/adrianalite/datasets/main/BR_LQs_CD2022.csv')
 # Incremente o dashboard sobre as localizações dos quilombolas informando a quantidade de comunidades 
